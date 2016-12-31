@@ -1,0 +1,30 @@
+/*-----------------------------ABOUT CSS-------------------------------------*/
+/*this is responsible for the about div page---------------------------------*/
+
+/* About-Info Div*/
+/*general styling for the entire div*/
+
+#about-info{
+  padding-top: 2.5%;
+  left: 5%;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+
+  color: white;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-weight: 100;
+}
+
+/*Title*/
+/* this is responsible for the  styling of my name*/
+#about-title{
+  font-size: 180%;
+}
+
+/*Link*/
+/* this is responsible for the  styling of the link*/
+
+.aboutlinks{
+  color:white;
+}

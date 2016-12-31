@@ -1,0 +1,240 @@
+/*-------------------------PORTFOLIO CENTER CSS-------------------------------*/
+/*this is responsible for the center div on the portfolio page ---------------*/
+
+
+/*-BODY AREA-------------------------------------------------------------------*/
+/*this is responsible for the back ----------------------------------------*/
+
+
+body{
+  background: black;
+}
+
+
+/*-SVG AREA-------------------------------------------------------------------*/
+/*this is responsible for the svg area ----------------------------------------*/
+
+svg {
+    position: relative;
+    padding-left: 10%;
+    padding-bottom: 20%;
+}
+
+
+/*-PATHS----------------------------------------------------------------------*/
+/*this is responsible for the outline and fill of the venn diagram------------*/
+
+path {
+    fill: white;
+}
+
+/*MAIN THREE CIRCLES*/
+/*this is responsible for the main three circles while not hovering and hovering -------------*/
+
+#code {
+    opacity: .4;
+}
+
+#math {
+    opacity: .2;
+}
+
+#design {
+    opacity: .3;
+}
+
+#code:hover{
+    /*fill: indianred ;*/
+    opacity: 1;
+}
+
+#math:hover{
+    /*fill: steelblue ;*/
+    opacity: 1;
+}
+
+#design:hover{
+    /*fill: darkolivegreen ;*/
+    opacity: 1;
+}
+
+/*MAIN THREE CIRCLES TEXT*/
+/*this is responsible for the text of the main three circles while not hovering -------------*/
+
+.venn-main-text{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 40%;
+  fill: white;
+}
+
+/*MAIN THREE CIRCLES TEXT - HOVER */
+/*this is responsible for the text of the main three circles while hovering -------------*/
+
+
+.venn-main-text-hover{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 35%;
+  fill: white;
+  visibility: hidden;
+}
+
+#code:hover + #code-text-hover{
+  visibility: visible;
+  pointer-events: none;
+  fill: black;
+}
+
+#math:hover + #math-text-hover{
+  visibility: visible;
+  pointer-events: none;
+  fill: black;
+
+}
+
+#design:hover + #design-text-hover{
+  visibility: visible;
+  pointer-events: none;
+  fill: black;
+}
+
+/* THE THREE INTERSECTIONS*/
+/*this is responsible for the three intersections while not hovering and hovering -------------*/
+
+#code-math {
+    opacity: .55;
+}
+
+#design-math {
+    opacity: .6;
+}
+
+#code-design {
+    opacity: .5;
+}
+
+#code-math:hover {
+    /*fill: mediumpurple;*/
+    opacity: 1;
+}
+
+#design-math:hover {
+    /*fill: cadetblue;*/
+    opacity: 1;
+}
+
+#code-design:hover {
+    /*fill: darkkhaki;*/
+    opacity: 1;
+}
+
+/*THREE INTERSECTIONS TEXT - HOVER */
+/*this is responsible for the text of the three circle intersections while hovering -------------*/
+
+
+.venn-text-intersection{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 25%;
+  fill: white;
+  visibility: hidden;
+}
+
+#code-design:hover + #cd-text{
+  visibility: visible;
+  pointer-events: none;
+  fill: black;
+}
+
+#code-math:hover + #cm-text{
+  visibility: visible;
+  pointer-events: none;
+  fill: black;
+
+}
+
+#design-math:hover + #dm-text{
+  visibility: visible;
+  pointer-events: none;
+  fill: black;
+
+}
+
+
+/*CENTER*/
+/*this is responsible for the center of the circle and its text while not hovering and hovering -------------*/
+
+#all {
+    opacity: .7;
+}
+
+#all:hover {
+    fill: white;
+    opacity: 1;
+}
+
+#venn-text-all{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 25%;
+  fill: black;
+  visibility: hidden;
+}
+
+#all:hover + #venn-text-all{
+  visibility: visible;
+  pointer-events: none;
+}
+
+/*---------------------THIS IS THE END OF THE SVG AREA------------------------*/
+/*----------------------------------------------------------------------------*/
+
+
+/*-PROJECT AREA---------------------------------------------------------------*/
+/*this is responsible for the projects styling -------------------------------*/
+
+
+.project-div{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  overflow: scroll;
+  display: none;
+}
+
+
+#blankproject{
+  display:block;
+}
+
+/*-PROJECT TITLE---------------------------------------------------------------*/
+/*this is responsible for the project's title -------------------------------*/
+
+.title-project{
+  font-weight: 400;
+  padding-left: 10%;
+  padding-top: 15vh;
+}
+
+.desc-project{
+  padding-left: 10%;
+}
+
+.video-project{
+  padding-left: 10%;
+}
+
+.desc-project a:link, .desc-project a:hover, .desc-project a:visited {
+color: black;
+}
+
+
+.button {
+    margin-left: 10%;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  }
