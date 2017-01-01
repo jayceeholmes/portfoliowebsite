@@ -4,13 +4,14 @@ window.onbeforeunload = function() {
     window.scrollTo(0, 0);
 }
 
+
 // RE-DIRECTING
 // looks for a hash in the document name
 // shows the div in document name
 
-if (window.location.hash) {
-    var hash = window.location.hash.substring(1);
-    viewProject(hash);
+if(window.location.hash) {
+  var hash = window.location.hash.substring(1);
+  viewProject(hash);
 }
 
 //-------------------------------------------------------------------------------
@@ -104,20 +105,18 @@ function viewProject(chosenElement) {
         pd[i].style.display = 'none';
     } // end for
 
-    // stop all videos
-    document.getElementById('box-video').pause();
-
     // make chosen element visible
     document.getElementById(chosenElement).style.display = 'block';
 
     // scroll to target element
     $('html, body').animate({
         scrollTop: $("#" + chosenElement).offset().top
-    }, 1000);
+    }, 3000);
 
 } // end viewProject
 
 //-----------------------------------------------------------------------------
+
 
 // PAUSE VIDEO
 // waits for the video to be out of the viewport
