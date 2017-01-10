@@ -32,7 +32,7 @@ path {
 /*this is responsible for the main three circles while not hovering and hovering -------------*/
 
 #code {
-    opacity: .4;
+    opacity: .2;
 }
 
 #math {
@@ -40,7 +40,7 @@ path {
 }
 
 #design {
-    opacity: .3;
+    opacity: .2;
 }
 
 #code:hover{
@@ -101,15 +101,15 @@ path {
 /*this is responsible for the three intersections while not hovering and hovering -------------*/
 
 #code-math {
-    opacity: .55;
+    opacity: .4;
 }
 
 #design-math {
-    opacity: .6;
+    opacity: .4;
 }
 
 #code-design {
-    opacity: .5;
+    opacity: .4;
 }
 
 #code-math:hover {
@@ -218,7 +218,7 @@ path {
   padding-left: 10%;
 }
 
-.video-project{
+.media-project{
   padding-left: 10%;
 }
 

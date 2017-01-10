@@ -111,7 +111,7 @@ function viewProject(chosenElement) {
     // scroll to target element
     $('html, body').animate({
         scrollTop: $("#" + chosenElement).offset().top
-    }, 3000);
+    }, 1000);
 
 } // end viewProject
 
