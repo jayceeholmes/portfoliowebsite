@@ -41,7 +41,7 @@ header {
 
 .left-navigation {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  font-size: 1.4vw;
+  font-size: 113%;
 }
 
 .left-navigation li {
@@ -74,7 +74,7 @@ header {
 
 .center-div{
   width: 65%;
-  height: 100%;
+  height: 113%;
   position: relative;
   left: 15%;
 }
@@ -86,7 +86,7 @@ header {
   position: fixed;
   bottom: 10%;
   right: 4%;
-  width: 20%;
+  width: 20% !important;
 }
 
 /*Right Navigation-------------------------------------------------------------*/
@@ -96,7 +96,7 @@ header {
 
 .right-navigation {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-    font-size: 1.3vw;
+    font-size: 100%;
 }
 
 .right-navigation a li {
