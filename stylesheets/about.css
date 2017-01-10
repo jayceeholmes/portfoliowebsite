@@ -22,9 +22,17 @@
   font-size: 180%;
 }
 
-/*Link*/
+/*LINK*/
 /* this is responsible for the  styling of the link*/
 
 .aboutlinks{
   color:white;
+}
+
+
+/*BUTTON*/
+/* this is responsible for the  styling of the button*/
+
+.button{
+  text-decoration: underline;
 }
