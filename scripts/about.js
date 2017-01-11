@@ -16,13 +16,13 @@ document.addEventListener('mousemove', function(event) {
         document.getElementById("about-link").style.color = 'rgb(' + 255 + ',' + 255 + ',' + 255 + ')';
         document.getElementById("email").style.color = 'rgb(' + 255 + ',' + 255 + ',' + 255 + ')';
         document.getElementById("github").style.color = 'rgb(' + 255 + ',' + 255 + ',' + 255 + ')';
-        document.getElementById("linkedin").style.color = 'rgb(' + 255 + ',' + 255 + ',' + 255 + ')';
+        document.getElementById("resume").style.color = 'rgb(' + 255 + ',' + 255 + ',' + 255 + ')';
     } else if (x >= 125) {
         document.getElementById("about-info").style.color = 'rgb(' + 0 + ',' + 0 + ',' + 0 + ')';
         document.getElementById("about-link").style.color = 'rgb(' + 0 + ',' + 0 + ',' + 0 + ')';
         document.getElementById("email").style.color = 'rgb(' + 0 + ',' + 0 + ',' + 0 + ')';
         document.getElementById("github").style.color = 'rgb(' + 0 + ',' + 0 + ',' + 0 + ')';
-        document.getElementById("linkedin").style.color = 'rgb(' + 0 + ',' + 0 + ',' + 0 + ')';
+        document.getElementById("resume").style.color = 'rgb(' + 0 + ',' + 0 + ',' + 0 + ')';
     }
 
 });
